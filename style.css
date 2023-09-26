@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#tituloPrimeiroBloco{
+    width: 1024px;
+    height: 72px;
+    padding-top: 206px;
+    margin-left: 62px;
+    color: #FFFFFF;
+    font-weight: 600;
+    size: 60px;
+    line-height: 72px;
+}
+#subtituloPrimeiroBloco{
+    width: 1024px;
+    height: 28px;
+    margin-left: 62px;
+    font-weight: 500;
+    size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#primeiroBloco{
+    background-color: #303030;
+    width: 1440px;
+    height: 475px;
+}
+#segundoBloco{
+    background-color: #F9F9F9;
+    width: 1440px;
+    height: 229px;
+    display: grid;    
+    grid-auto-flow: column;
+    columns: auto;
+    top: -42px;
+    left: -656px;
+}
+.paragrafosSegundoBloco{
+    margin-top: 54px;
+    text-align: justify;
+    margin-left: 70px;
+    size: 20px;
+    line-height: 28px;
+}
+.numBl2{
+    font-size: 40px;    
+}
+#terceiroBloco{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: justify;
+    columns: auto;
+    }
+#paragrafoTerceiroBloco{
+    width: 735px;
+    height: 161px;    
+    color: #000000;
+    margin: 200px 30px 200px 77px;
+    size: 24px;
+    text-align: center;
+}
+#foto{
+    width: 510px;
+    height: 605px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#tituloBl3{
+    font-size: 40px;
+}
+#quartoBloco{
+    background-color: #303030;
+    width: 1440px;
+    height: 638px;
+}
+#tituloQuartoBloco{
+    width: 944px;
+    height: 48px;
+    color: #FFFFFF;
+    margin-left: 248px;
+    font-weight: 700;
+    size: 32px;
+    text-align: center;
+    padding-top: 130px;
+}
+input{
+    width: 508px;
+    height: 72px;
+    margin-left: 466px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+button{
+    width: 286px;
+    height: 74px;
+    margin-left: 577px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #C07212;
+    border-radius: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #b77b31;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #e8a75682;
+}
